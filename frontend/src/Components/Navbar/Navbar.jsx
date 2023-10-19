@@ -12,7 +12,7 @@ export const Navbar = () => {
         <p>SPARKEL</p>
     </div>
     <ul className='nav-menu'>
-        <li onClick={()=>{setMenu("shop")}}>Shop {menu==="shop"? <hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("shop")}}> {menu==="shop"? <hr/>:<></>}</li>
         <li onClick={()=>{setMenu("mens")}}>Men {menu==="mens"? <hr/>:<></>}</li>
         <li onClick={()=>{setMenu("women")}}>Women  {menu==="women"? <hr/>:<></>}</li>
         <li onClick={()=>{setMenu("kids")}}>Kids  {menu==="kids"? <hr/>:<></>}</li>
